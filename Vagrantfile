@@ -17,7 +17,7 @@ Vagrant.configure(2) do |config|
     master.vm.provider :virtualbox do |v|
       v.name = master.vm.hostname.to_s
       v.memory = 4096
-      v.cpus = 2
+      v.cpus = 4
     end
   end
 end
